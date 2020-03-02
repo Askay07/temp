@@ -2,8 +2,9 @@
   
   function calculate() {
     
+    var diff = 273.15
     var celcius = document.getElementById("uno").value;
-    TempKelvin = (celcius + 273.15)
+    TempKelvin = (celcius + diff)
 
 
     if (!isNaN(TempKelvin)) {
