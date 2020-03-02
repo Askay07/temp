@@ -6,5 +6,10 @@
     TempKelvin = celcius + 273.15
 
 
-    document.getElementById("cinco").innerHTML = TempKelvin + " K ";
+    if (!isNaN(TempKelvin)) {
+  
+      document.getElementById("cinco").innerHTML = TempKelvin + " K ";
+    }
   }
+
+  
