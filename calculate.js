@@ -9,7 +9,7 @@
 
     if (!isNaN(TempKelvin)) {
   
-      document.getElementById("cinco").innerHTML = TempKelvin + " K ";
+      document.getElementById("cinco").innerHTML = "The tempreture in Kelvin is: " + TempKelvin + " K ";
     }
   }
 
